@@ -1,0 +1,64 @@
+body {
+    font-family: "Open Sans", Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bree Serif", serif;
+}
+
+
+.mmpt-navbar-bg {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.home-display {
+    background-image: url("img/running-573762_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.jumbotron-logo {
+    max-width: 66%;
+    max-height: auto;
+    opacity: 66%;
+    display: block;
+    padding-top: 20%;
+}
+
+.jumbotron-tagline {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.15em;
+    border: 0;
+    padding-top: 1em;
+}
+
+.jumbotron-wrapper {
+    width: 100%;
+    /* whatever width you want */
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+    background: url('img/running-573762_1920.jpg') top center no-repeat;
+    margin: 0 auto;
+  }
+  .jumbotron-wrapper:after {
+    padding-top: 58.69%;
+    /* this llama image is 800x600 so set the padding top % to match 600/800 = .75 */
+    display: block;
+    content: '';
+  }
+  .jumbotrain-main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+  }
